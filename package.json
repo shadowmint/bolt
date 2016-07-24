@@ -1,0 +1,27 @@
+{
+  "name": "go-bolt",
+  "version": "1.2.1",
+  "description": "This is an NPM compatible fork of https://github.com/boltdb/bolt",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boltdb/bolt.git"
+  },
+  "files": [
+    "*.go",
+    "scripts"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boltdb/bolt/issues"
+  },
+  "homepage": "https://github.com/boltdb/bolt",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
